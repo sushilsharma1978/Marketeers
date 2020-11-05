@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "923132181724",
+    "firebase_url": "https://the-marketeers.firebaseio.com",
+    "project_id": "the-marketeers",
+    "storage_bucket": "the-marketeers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923132181724:android:88471da26a55b8b3fa4819",
+        "android_client_info": {
+          "package_name": "com.app.marketeers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923132181724-2ceskj9ierlp7himesdrfjp7mrbq2a8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaneN_1RGwSIBNsiOBWIk9ORWImPxpD94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923132181724-2ceskj9ierlp7himesdrfjp7mrbq2a8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

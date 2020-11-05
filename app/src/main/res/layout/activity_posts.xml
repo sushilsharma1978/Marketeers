@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E8E0E0"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PostsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="#f6f6f6"
+        android:layout_height="?attr/actionBarSize">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+android:gravity="center"
+                android:layout_weight="0.7">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/markt_newicon"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/iv_contact"
+                android:layout_width="0dp"
+                android:src="@drawable/call"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_posts"
+            />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi_loader3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_marginTop="5dp"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            app:indicatorName="LineSpinFadeLoaderIndicator"
+            app:indicatorColor="@color/darkred"
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>

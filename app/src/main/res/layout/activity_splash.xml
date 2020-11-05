@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".Splash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/markt_newicon"
+        android:gravity="center"
+        />
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi_loader"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_marginTop="5dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        app:indicatorName="LineSpinFadeLoaderIndicator"
+        app:indicatorColor="@color/lighred"
+        />
+
+</LinearLayout>
